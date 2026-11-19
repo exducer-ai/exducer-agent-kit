@@ -5,6 +5,8 @@ The API has its own changelog: https://exducer.ai/docs/compute/c-api-changelog
 
 ## 2026-11-19
 
+- Listing 1.0.2 published: this repository moved to https://github.com/exducer-ai/exducer-agent-kit.
+  The old address forwards here. The tools are unchanged.
 - Listing 1.0.1 published: an icon and the link to this repository. The tools are unchanged.
 - This repository: the setup text, the Claude Code plugin with six skills, the registry listing,
   the turbo CLI (0.3.0), examples and a security page.

@@ -3,10 +3,10 @@
   "name": "ai.exducer/turbo",
   "title": "ExducerAI GPU cloud",
   "description": "Rent whole RTX PRO 6000 Blackwell GPUs in Montréal: quote, book, connect, stop, billing.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "websiteUrl": "https://exducer.ai/agents",
   "repository": {
-    "url": "https://github.com/nicoexducerai/exducer-mcp",
+    "url": "https://github.com/exducer-ai/exducer-agent-kit",
     "source": "github",
     "id": "1464458982"
   },
