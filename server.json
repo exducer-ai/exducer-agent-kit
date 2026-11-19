@@ -1,0 +1,43 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.exducer/turbo",
+  "title": "ExducerAI GPU cloud",
+  "description": "Rent whole RTX PRO 6000 Blackwell GPUs in Montréal: quote, book, connect, stop, billing.",
+  "version": "1.0.1",
+  "websiteUrl": "https://exducer.ai/agents",
+  "repository": {
+    "url": "https://github.com/nicoexducerai/exducer-mcp",
+    "source": "github",
+    "id": "1464458982"
+  },
+  "icons": [
+    {
+      "src": "https://exducer.ai/icon-192.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "192x192"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://exducer.ai/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional. An API key from the console (Account, API keys) opens the account tools: bookings, deployments, billing and usage. Pricing, availability and quotes need no key. A sandbox key simulates everything and charges nothing.",
+          "value": "Bearer {api_key}",
+          "isRequired": false,
+          "isSecret": true,
+          "variables": {
+            "api_key": {
+              "description": "Your API key. Leave empty to use the public tools only.",
+              "isSecret": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

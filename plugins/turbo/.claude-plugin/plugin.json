@@ -1,0 +1,8 @@
+{
+  "name": "turbo",
+  "description": "Rent whole GPUs on ExducerAI from your coding agent: check availability, quote, book, wait, connect over SSH, stop, and read billing. Six skills and the MCP server.",
+  "version": "1.0.0",
+  "author": { "name": "ExducerAI", "email": "hello@exducer.ai", "url": "https://exducer.ai" },
+  "homepage": "https://exducer.ai/agents",
+  "keywords": ["gpu", "cloud", "mcp", "training", "inference", "canada"]
+}

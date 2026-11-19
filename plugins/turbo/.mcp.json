@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "turbo": { "command": "turbo", "args": ["mcp"] }
+  }
+}
